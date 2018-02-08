@@ -20,6 +20,10 @@ java로 실행
 인자 전달  
 * java -jar target/spring-boot-simple-0.0.1-SNAPSHOT.jar --enable arg1 arg2  
 
+기본 메이븐 자바프로젝트 생성  
+* spring init -g=com.apres.spring -a=spring-boot-config --package=com.apress.spring-name=spring-boot-config -x  
 
-
+---
+## 공통 프로퍼티
+[springboot-docs(공통프로퍼티)](https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html)
 
