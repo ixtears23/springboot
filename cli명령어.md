@@ -10,6 +10,12 @@
 
 - run 명령  
 `> mvn spring-boot:run`  
+`> mvn package -DskipTests=true`  
+`> java -jar target/spring-boot-config-0.0.1-SNAPSHOT.jar --spring.config.name=mycfg`  
+
+ 
+
+
 
 - argument 추가 명령어  
 `> mvn spring-boot:run -Dspring-boot.run.arguments="arg1,arg2"`  
@@ -22,3 +28,9 @@
  - `-a` artifactId  
  - `--package` package  
  - `-x` 현재폴더  
+
+
+- spring 환경설정 파일 지정 application.properties -> mycfg.properties  
+` > mvnw spring-boot:run -Dspring.config.name=mycfg`  
+
+
