@@ -42,5 +42,9 @@
   
 `> mvn clean spring-boot:run -Dspring.profiles.active=prod`
 
+
+### spring 환경설정 파일 지정 + profile 설정
+
+`> mvnw clean spring-boot:run -Dspring.config.name=mycfg -Dspring.profiles.active=qa`
   
   
