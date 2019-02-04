@@ -33,4 +33,13 @@
 - spring 환경설정 파일 지정 application.properties -> mycfg.properties  
 ` > mvnw spring-boot:run -Dspring.config.name=mycfg`  
 
+### spring profile
 
+- application-qa.properties  
+  `server.ip=localhost`  
+- application-prod.properties  
+  `server.ip=http://my-remote.server.com`  
+`> mvn clean spring-boot:run -Dspring.profiles.active=prod`
+
+  
+  
